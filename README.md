@@ -1,17 +1,23 @@
-# RTL Coding Practice
+# RTL & C Coding Practice / RTL 및 C 코딩 연습
 
-Small Verilog/SystemVerilog exercises with focused changes and simple testbenches.
+One small coding problem per weekday (Monday–Friday), alternating Verilog, SystemVerilog, and C.
+평일(월~금) 하루에 한 문제씩 Verilog, SystemVerilog, C를 번갈아 연습합니다.
 
-## Exercises
+## File format / 파일 구성
 
-- `rtl/up_counter.sv`: parameterized enabled up-counter with asynchronous active-low reset.
-- `tb/tb_up_counter.sv`: basic reset, enable, increment, and wrap-around checks.
+- `problem.md`: English problem followed by Korean translation, requirements, and hints.
+- `problem.md`: 영어 문제와 한글 번역, 조건, 힌트를 함께 제공합니다.
+- `solution.v`, `solution.sv`, or `solution.c`: complete working solution.
+- `solution.v`, `solution.sv`, `solution.c`: 완성된 풀이 코드입니다.
 
-## Run with Icarus Verilog
+## Exercises / 연습 문제
 
-```sh
-iverilog -g2012 -s tb_up_counter -o sim.vvp rtl/up_counter.sv tb/tb_up_counter.sv
-vvp sim.vvp
-```
+| Date / 날짜 | Language / 언어 | Topic / 주제 |
+| --- | --- | --- |
+| 2026-11-20 | Verilog | [2:1 Multiplexer / 멀티플렉서](exercises/2026-11-20_verilog_mux/problem.md) |
 
-Each change should represent a real exercise, fix, or verification improvement rather than an empty contribution.
+Try the problem first, then compare your code with the solution.
+먼저 문제를 풀고 정답 코드와 비교하세요.
+
+The repository keeps only one problem per date. Older dates may be retained for learning history.
+하루에 하나의 문제만 유지하며, 이전 날짜의 문제는 학습 기록으로 보존할 수 있습니다.
