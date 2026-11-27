@@ -16,6 +16,7 @@ One small coding problem per weekday (Monday–Friday), alternating Verilog, Sys
 | --- | --- | --- |
 | 2026-11-20 | Verilog | [2:1 Multiplexer / 멀티플렉서](exercises/2026-11-20_verilog_mux/problem.md) |
 | 2026-11-26 | SystemVerilog | [Enabled Counter / 활성화 카운터](exercises/2026-11-26_sv_enabled_counter/problem.md) |
+| 2026-11-27 | C | [Register Bit Manipulation / 레지스터 비트 연산](exercises/2026-11-27_c_register_bits/problem.md) |
 
 Try the problem first, then compare your code with the solution.
 먼저 문제를 풀고 정답 코드와 비교하세요.
